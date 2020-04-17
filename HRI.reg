@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00 
+[HKEY_CLASSES_ROOT\*\shell\HashSF] 
+"SubCommands"="MD5;SHA1;SHA256;SHA384;SHA512" 
+"MUIVerb"="Hash¬Î–£—È@SeaFever"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MD5] 
+@="MD5" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MD5\command] 
+@="cmd /c HashSF MD5 \"%1\"" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA1] 
+@="SHA1" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA1\command] 
+@="cmd /c HashSF SHA1 \"%1\"" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA256] 
+@="SHA256" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA256\command] 
+@="cmd /c HashSF SHA256 \"%1\"" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA384] 
+@="SHA384" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA384\command] 
+@="cmd /c HashSF SHA384 \"%1\"" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA512] 
+@="SHA512" 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\SHA512\command] 
+@="cmd /c HashSF SHA512 \"%1\"" 
